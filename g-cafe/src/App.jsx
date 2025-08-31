@@ -1,6 +1,6 @@
 
-import './App.css'
-import Botao from './Components/butão/botao'
+//import './App.css'
+//import Botao from './Components/butão/botao'
 
 function App() {
   
