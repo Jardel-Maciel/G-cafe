@@ -6,7 +6,7 @@ function App() {
   
   return (
     <>
-      <Botao/>
+      <h1 className="bg-"> maciel</h1>
         
     </>
   )

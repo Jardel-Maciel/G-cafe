@@ -1,7 +1,7 @@
 export default function Botao(){
     return(
         <>
-            <button className="bg-">
+            <button>
                 Ola
             </button>
         </>
