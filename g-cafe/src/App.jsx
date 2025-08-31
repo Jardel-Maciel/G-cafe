@@ -1,11 +1,12 @@
-import { useState } from 'react'
+
 import './App.css'
+import Botao from './Components/butão/botao'
 
 function App() {
   
   return (
     <>
-      <h1 className='font-light text-amber-500'> Jardel Maciel </h1>
+      <Botao/>
         
     </>
   )
