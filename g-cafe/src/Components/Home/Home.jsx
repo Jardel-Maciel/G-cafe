@@ -1,10 +1,12 @@
 import Botao from "../Botao/Botao"
+import logo from '../../assets/Logo.png'
 export default function Home() {
     return (
         <>
             <header className="flex justify-around items-center pt-2.5">
-
-                <h1>G cafe</h1>
+                <div className="w-30">
+                    <img src={logo} alt="" />
+                </div>
 
                 <nav className="flex justify-around items-center gap-4">
                     <ul className="gap-7 flex">
@@ -22,6 +24,8 @@ export default function Home() {
                     />
                 </nav>
             </header>
+
+           
 
         </>
     )
