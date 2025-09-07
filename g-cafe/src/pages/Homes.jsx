@@ -1,12 +1,12 @@
-import Botao from '../components/botao/Botao';
-import botao from '../components/botao/Botao';
+import bgImg from '../assets/bg-mobile.jpg'
 export default function Home() {
     return (
-        <div>
-            <h1>Home</h1>
-            <Botao
-            label="Clique aqui"
-            />
+        <div className='relative h-screen bg-cover bg-center' style={{backgroundImage:'url(/src/assets/bg-mobile.jpg)'}} >          
+            
+          <div className='flex justify-center items-center te'> </div>
+            
+            
+           
         </div>
     )
 }
